@@ -35,24 +35,32 @@
                 </span>
             </a>
             </div>
+            <div class="bars" onclick="navBardisplay()">
+                <i class="fa fa-bars"></i>
+            </div>
         </div>
+      
             <!-- //header top  -->
 
         </div>
         <!-- container end  -->
-          <!-- header bottom start  -->
+          <!-- header bottom start or nav start  -->
+          <div class="navbar">
+
 
           <nav class="flex justify-content-center">
-            <ul class="flex">
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#">About Us </a></li>
-                <li><a href="#">Services </a></li>
-                <li><a href="#">pricing </a></li>
-                <li><a href="#">Blog </a></li>
-                <li><a href="#">contact </a></li>
+            <ul class="flex flex-direction-column">
+                <li><a  href="#" class="active link" onclick="activeLink(event)">Home</a></li>
+                <li><a  href="#" class="link" onclick="activeLink(event)">About Us </a></li>
+                <li><a  href="#" class="link" onclick="activeLink(event)">Services </a></li>
+                <li><a  href="#" class="link" onclick="activeLink(event)">pricing </a></li>
+                <li><a  href="#" class="link" onclick="activeLink(event)">Blog </a></li>
+                <li><a  href="#" class="link" onclick="activeLink(event)">contact </a></li>
             </ul>
         </nav>
-        <!-- header bottom end  -->
+    </div>
+
+        <!-- header bottom end or nav end  -->
     </header>
     <!---//header end -->
     <!---scriptfile-->
