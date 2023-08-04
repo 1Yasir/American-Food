@@ -316,4 +316,12 @@ h2::before{
     right: 10px;
     bottom: 10px;
     display: none;
+    animation: fadebtn .6s;
+}
+
+@keyframes fadebtn{
+    from{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
 }
