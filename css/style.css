@@ -307,9 +307,7 @@ h2::before{
         width: 100%;
         margin: 20px 0;
     }
-    .btn-container{
-        text-align: center;
-    }
+   
 }
 .up{
     position: fixed;
