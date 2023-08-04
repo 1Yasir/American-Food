@@ -311,3 +311,8 @@ h2::before{
         text-align: center;
     }
 }
+.up{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
