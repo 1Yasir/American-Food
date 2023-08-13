@@ -23,7 +23,7 @@ function navBardisplay(){
 window.addEventListener("scroll" ,function(){
     let btn = this.document.querySelector(".up");
 
-    if(this.scrollY > 10){
+    if(this.scrollY > 100){
         btn.style.display = "inline-block";
     }else{
         btn.style.display = "none";
